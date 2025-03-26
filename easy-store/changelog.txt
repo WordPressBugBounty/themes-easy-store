@@ -1,3 +1,7 @@
+== 1.2.3 2025-03-26 ==
+- Fix: woocommerce design issue updated.
+- Fix: No search result design updated.
+
 == 1.2.2 2024-05-14 ==
 - Fix: Design issue fixed for cart and checkout blocks.
 - Fix: Cart page block error fixed.

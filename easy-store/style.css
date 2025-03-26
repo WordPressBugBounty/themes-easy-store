@@ -4,9 +4,9 @@ Theme URI:          https://mysterythemes.com/wp-themes/easy-store
 Author:             Mystery Themes
 Author URI:         https://mysterythemes.com/
 Description:        Easy Store is a beautifully designed e-commerce theme fully compatible with the most popular WooCommerce plugin. The theme comes with a clean and elegant design and developer friendly. It is fully responsive, translation ready, SEO friendly and compatible with WooCommerce, YITH WooCommerce Wishlist, and popular plugin. Use this theme for your e-commerce website, you will feel the best ever experience. Get free support at https://mysterythemes.com/support and check the demo at https://demo.mysterythemes.com/easy-store-demos/
-Version:            1.2.2
+Version:            1.2.3
 Requires at least:  4.7
-Tested up to:       6.5
+Tested up to:       6.7
 Requires PHP:       7.2
 License:            GNU General Public License v3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
@@ -26,11 +26,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 Reset
 --------------------------------------------------------------*/
 
-html, body, div, span, applet, object, iframe, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
-abbr, acronym, address, big, cite, code, del, dfn, em, font, 
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, 
-tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del, dfn, em, font,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
     border: 0;
     font-family: inherit;
@@ -1409,10 +1409,24 @@ Default widget css
   width: 80px;
   margin: 0;
   height: 36px;
+  color:#fff;
+  line-height: 8px;
 }
 
+
+.search-no-results #primary input[type="text"] {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.search-no-results #primary .submit{
+  height:36px;
+}
+
+
+
 /*--------------------------------------------------------------
-Sidebar layout css 
+Sidebar layout css
 --------------------------------------------------------------*/
 
 #primary,
@@ -2717,10 +2731,17 @@ Featured Product CSS
 
 .product,
 .woocommerce ul.products li.product,
-.woocommerce-page ul.products li.product {
+.woocommerce-page ul.products li.product, .wc-block-grid__product {
   position: relative;
   border: 1px solid #e1e1e1;
   padding-top: 10px;
+}
+
+.wc-block-grid__products .wc-block-grid__product {
+  border-bottom: 1px solid #e1e1e1;
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+  margin: 5px 10px;
 }
 
 .product a.woocommerce-LoopProduct-link {
@@ -2843,6 +2864,7 @@ li.product:hover .es-product-buttons-wrap:after {
   width: 56%;
 }
 
+
 .widget li.product:hover .es-product-buttons-wrap a,
 li.product:hover .es-product-buttons-wrap a,
 .woocommerce-active ul.products li.product:hover .button {
@@ -2860,13 +2882,21 @@ li.product:hover .es-product-buttons-wrap a,
 }
 
 .es-product-buttons-wrap a.add_to_cart_button::before,
-.es-product-buttons-wrap a.add_to_wishlist::before {
+.es-product-buttons-wrap a.add_to_wishlist::before, .wc-block-grid__products .add_to_cart_button::before  {
   content: "\f07a";
   font-family: FontAwesome;
   margin-right: 8px;
   font-size: 14px;
 }
 
+.wc-block-grid__products .add_to_cart_button{
+  border-radius: 0px;
+  padding: 5px 10px;
+}
+
+.wc-block-grid__products .wc-block-grid__product-title{
+  font-size:13px;
+}
 .es-product-buttons-wrap a.add_to_wishlist:before {
   content: "\f004";
 }

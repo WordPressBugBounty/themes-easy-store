@@ -2,7 +2,7 @@
 
 Contributors:       mysterythemes
 Requires at least:  4.7
-Tested up to:       6.5
+Tested up to:       6.7
 Requires PHP:       7.2
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
@@ -72,7 +72,7 @@ Easy Store bundles the following third-party resources:
     Source: https://github.com/justintadlock/trt-customizer-pro
 
 	Screenshot:
-    
+
 	https://www.pexels.com/photo/woman-wearing-blue-jacket-875862/
     https://www.pexels.com/photo/silver-iphone-x-with-airpods-788946/
     https://www.pexels.com/photo/analog-analogue-classic-emporio-armani-277459/
