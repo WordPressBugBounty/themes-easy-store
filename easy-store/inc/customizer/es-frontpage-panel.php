@@ -83,6 +83,28 @@ function easy_store_additional_settings_register( $wp_customize ) {
         ) 
     );
 
+    /**
+     * Upgrade field for social icons
+     *
+     * @since 1.2.0
+     */ 
+    $wp_customize->add_setting( 'easy_store_upgrade_promo_items',
+        array(
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+    $wp_customize->add_control( new Easy_Store_Control_Upgrade(
+        $wp_customize, 'easy_store_upgrade_promo_items',
+            array(
+                'priority'      => 100,
+                'section'       => 'easy_store_promo_section',
+                'settings'      => 'easy_store_upgrade_promo_items',
+                'label'         => __( 'More Features with Easy Store Pro', 'easy-store' ),
+                'choices'       => easy_store_upgrade_choices( 'easy_store_promo_items' )
+            )
+        )
+    );
+
 /*------------------------------ Front Page: Sponsors Section ---------------------------------------------*/
     /**
      * Sponsors Section

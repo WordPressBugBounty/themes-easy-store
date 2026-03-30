@@ -108,7 +108,7 @@ if ( ! class_exists( 'Easy_Store_Admin_Dashboard' ) ) :
 							</li>
 						</nav>
 						<div class="upgrade-pro">
-							<a href="<?php echo esc_url( 'https://mysterythemes.com/pricing/?product_id=12736' ); ?>" target="_blank" class="button button-primary"><?php esc_html_e( 'More Features With Pro', 'easy-store' ); ?></a>
+							<a href="<?php echo esc_url( 'https://mysterythemes.com/pricing/?product_id=5943' ); ?>" target="_blank" class="button button-primary"><?php esc_html_e( 'More Features With Pro', 'easy-store' ); ?></a>
 						</div><!-- .upgrade-pro -->
 					</div><!-- .header-nav -->
 				</div><!-- .easy-store-container -->
@@ -443,7 +443,7 @@ if ( ! class_exists( 'Easy_Store_Admin_Dashboard' ) ) :
 										<td><?php esc_html_e( 'Get access to all Pro features and power-up your website', 'easy-store' ); ?></td>
 										<td></td>
 										<td class="btn-wrapper">
-										<a href="<?php echo esc_url( apply_filters( 'easy_store_pro_theme_url', 'https://mysterythemes.com/pricing/?product_id=12736' ) ); ?>" class="button button-primary" target="_blank"><?php esc_html_e( 'Buy Pro', 'easy-store' ); ?></a>
+										<a href="<?php echo esc_url( apply_filters( 'easy_store_pro_theme_url', 'https://mysterythemes.com/pricing/?product_id=5943' ) ); ?>" class="button button-primary" target="_blank"><?php esc_html_e( 'Buy Pro', 'easy-store' ); ?></a>
 										</td>
 									</tr>
 								</tbody>

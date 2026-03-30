@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: _s 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2024-05-14 10:17+0000\n"
+"POT-Creation-Date: 2026-03-29 11:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -69,6 +69,10 @@ msgstr ""
 msgid "3+ header layouts."
 msgstr ""
 
+#: inc/customizer/es-customizer-helper.php:140
+msgid "3+ more layouts."
+msgstr ""
+
 #: 404.php:18
 msgid "404"
 msgstr ""
@@ -121,7 +125,7 @@ msgstr ""
 msgid "Add Promo"
 msgstr ""
 
-#: inc/customizer/es-frontpage-panel.php:120
+#: inc/customizer/es-frontpage-panel.php:142
 msgid "Add Sponsor"
 msgstr ""
 
@@ -135,6 +139,10 @@ msgstr ""
 
 #: inc/customizer/es-customizer-stater.php:69
 msgid "Add To Wishlist"
+msgstr ""
+
+#: inc/customizer/es-customizer-helper.php:138
+msgid "Add unlimited promo item field."
 msgstr ""
 
 #: inc/customizer/es-customizer-helper.php:132
@@ -170,7 +178,7 @@ msgid ""
 "All promo items will be display via <strong>ES: Promo Items</strong> widget."
 msgstr ""
 
-#: inc/customizer/es-frontpage-panel.php:115
+#: inc/customizer/es-frontpage-panel.php:137
 msgid ""
 "All sponsors items will be display via <strong>ES: Sponsors</strong> widget."
 msgstr ""
@@ -396,7 +404,7 @@ msgstr ""
 msgid "Device visibility"
 msgstr ""
 
-#: inc/customizer/es-customizer-helper.php:138
+#: inc/customizer/es-customizer-helper.php:142
 msgid "Different Background Type"
 msgstr ""
 
@@ -866,9 +874,11 @@ msgid "More Features"
 msgstr ""
 
 #: inc/customizer/es-footer-panel.php:107
+#: inc/customizer/es-frontpage-panel.php:102
 #: inc/customizer/es-general-panel.php:232
 #: inc/customizer/es-general-panel.php:291
 #: inc/customizer/es-header-panel.php:319
+#: inc/customizer/es-innerpage-panel.php:101
 msgid "More Features with Easy Store Pro"
 msgstr ""
 
@@ -951,8 +961,12 @@ msgstr ""
 msgid "opens in a new tab"
 msgstr ""
 
-#: inc/customizer/es-frontpage-panel.php:94
-#: inc/customizer/es-frontpage-panel.php:114
+#: inc/customizer/es-customizer-helper.php:140
+msgid "Option for pagination types."
+msgstr ""
+
+#: inc/customizer/es-frontpage-panel.php:116
+#: inc/customizer/es-frontpage-panel.php:136
 msgid "Our Sponsors"
 msgstr ""
 
@@ -1115,6 +1129,10 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
+#: inc/customizer/es-customizer-helper.php:138
+msgid "search bar for fontawesome icons."
+msgstr ""
+
 #: inc/widgets/es-advance-product-search.php:34
 #: inc/widgets/es-advance-product-search.php:55
 msgid "Search Product"
@@ -1221,7 +1239,7 @@ msgstr ""
 msgid "Single Promo"
 msgstr ""
 
-#: inc/customizer/es-frontpage-panel.php:119
+#: inc/customizer/es-frontpage-panel.php:141
 msgid "Single Sponsor"
 msgstr ""
 
@@ -1271,7 +1289,7 @@ msgstr ""
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr ""
 
-#: inc/customizer/es-frontpage-panel.php:125
+#: inc/customizer/es-frontpage-panel.php:147
 msgid "Sponsor Logo"
 msgstr ""
 
@@ -1359,7 +1377,7 @@ msgstr ""
 msgid "Upgrade to pro for site layout advanced settings."
 msgstr ""
 
-#: inc/customizer/es-frontpage-panel.php:126
+#: inc/customizer/es-frontpage-panel.php:148
 msgid "Upload logo for sponsor."
 msgstr ""
 

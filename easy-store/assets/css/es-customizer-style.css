@@ -235,6 +235,10 @@
     color: #fff;
 }
 
+#accordion-section-theme_upsell .accordion-section-title::after {
+    display: none !important;
+}
+
 /*---------------------------
     Toggle
 ---------------------------*/

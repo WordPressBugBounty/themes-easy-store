@@ -135,6 +135,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
                 'breadcrumbs'   => array( __( 'Device visibility', 'easy-store' ), __( 'Typography Option', 'easy-store' ), __( 'Color Option', 'easy-store' ) ),
 
+                'promo_items'   => array( __( 'Add unlimited promo item field.', 'easy-store' ), __( 'search bar for fontawesome icons.', 'easy-store' ) ),
+
+                'archive_options'   => array( __( '3+ more layouts.', 'easy-store' ), __( 'Option for pagination types.', 'easy-store' ) ),
+
                 'footer_widget'   => array( __( 'Different Background Type', 'easy-store' ) ),
 
             );

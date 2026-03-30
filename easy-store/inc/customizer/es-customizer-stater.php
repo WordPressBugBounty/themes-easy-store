@@ -56,7 +56,7 @@ if ( ! function_exists( 'easy_store_get_customizer_default' ) ) :
             'easy_store_top_header_option'                  => false,
             'easy_store_top_header_items'                   => json_encode( array(
         									                    array(
-        									                        'mt_item_icon' => 'fa fa-map-marker',
+        									                        'mt_item_icon' => 'fas fa-location-dot',
         									                        'mt_item_text' => '',
         									                    )
         									                )),
@@ -75,13 +75,13 @@ if ( ! function_exists( 'easy_store_get_customizer_default' ) ) :
             // additional setting
             'social_media_icons'                            =>json_encode(array(
                                                                 array(
-                                                                    'mt_item_social_icon' => 'fa fa-facebook-f',
+                                                                    'mt_item_social_icon' => 'fab fa-facebook',
                                                                     'mt_item_url'         => '',
                                                                 )
                                                             )),
             'easy_store_promo_items'                      => json_encode(array(
 											                    array(
-											                        'mt_item_icon'  => 'fa fa-star-o',
+											                        'mt_item_icon'  => 'fas fa-star',
 											                        'mt_item_title' => '',
 											                        'mt_item_text'  => ''
 											                    )

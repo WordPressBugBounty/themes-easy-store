@@ -82,7 +82,7 @@ if ( ! class_exists( 'Easy_Store_Control_Upgrade' ) ) :
                             <# } #>
                         </ul><!-- .upgrade-list-item -->
                     <# } #>
-                    <a class="mt-upgrade-btn" href="https://mysterythemes.com/pricing/?product_id=12736" target="_blank"><?php esc_html_e( 'upgrade to pro', 'easy-store' ); ?></a>
+                    <a class="mt-upgrade-btn" href="https://mysterythemes.com/pricing/?product_id=5943" target="_blank"><?php esc_html_e( 'upgrade to pro', 'easy-store' ); ?></a>
                 </div><!-- .mt-upgrade-pro-wrapper -->
             <?php
         }

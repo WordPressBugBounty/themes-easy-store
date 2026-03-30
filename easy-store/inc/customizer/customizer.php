@@ -132,7 +132,9 @@ add_action( 'customize_preview_init', 'easy_store_customize_preview_js' );
  */
 function easy_store_customize_backend_scripts() {
 
-    wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/library/font-awesome/css/font-awesome.min.css', array(), '4.7.0' );
+    //wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/library/font-awesome/css/font-awesome.min.css', array(), '4.7.0' );
+
+    wp_enqueue_style( 'font-awesome', get_template_directory_uri() .'/assets/library/font-awesome/css/all.min.css', array(), '7.2.0' );
     
     wp_enqueue_style( 'easy_store_admin_customizer_style', get_template_directory_uri() . '/assets/css/es-customizer-style.css', array(), EASY_STORE_VERSION );
 
